@@ -31,7 +31,7 @@ sudo apt-get --yes install python2.7-dev python3-dev
 sudo apt-get --yes install python-dev python-numpy libtbb2 libpng-dev libtiff-dev python3-numpy
 
 # Java:
-#sudo apt-get install --yes ant default-jdk
+sudo apt-get install --yes ant default-jdk
 
 #Installation of OpenCV
 mkdir SfM && cd SfM
@@ -47,5 +47,6 @@ make -j4
 sudo make install
 sudo ldconfig
 
-
+export LD_LIBRARY_PATH=/usr/local/lib/:$LD_LIBRARY_PATH >> ~/.bashrc
+source ~/.bashrc
 
