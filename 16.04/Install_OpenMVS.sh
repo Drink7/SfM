@@ -38,7 +38,7 @@ sudo apt-get -y install libatlas-base-dev libsuitesparse-dev
 wget http://ceres-solver.org/ceres-solver-1.10.0.tar.gz
 tar xvzf ceres-solver-1.10.0.tar.gz
 mkdir -p ceres-build && cd ceres-build
-cmake ../ceres-solver -DCMAKE_C_FLAGS=-fPIC -DCMAKE_CXX_FLAGS=-fPIC -DBUILD_EXAMPLES=OFF -DBUILD_TESTING=OFF
+cmake ../ceres-solver-1.10.0 -DCMAKE_C_FLAGS=-fPIC -DCMAKE_CXX_FLAGS=-fPIC -DBUILD_EXAMPLES=OFF -DBUILD_TESTING=OFF
 sudo make install
 cd ..
 
