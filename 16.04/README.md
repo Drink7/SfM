@@ -1,4 +1,4 @@
-Put all the script uder the same directory, and then follow the step below:
+Put all the script uder the same directory, and then follow the steps below:
 1. bash Install_OpenCV.sh
 2. bash Install_OpenMVG.sh
 3. bash Install_OpenMVS.sh
